@@ -16,4 +16,4 @@ deleted. This program cannot protect your privacy in this situation.
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+GNU General Public License, or the LICENSE file, for more details.
