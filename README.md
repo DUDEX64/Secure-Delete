@@ -8,7 +8,7 @@ for those who require deleting files so that their sensitive data cannot
 be found though file system analisis.
   
   
-DISCLAMER: On some systems, like Windows&reg; for example, they may 
+**DISCLAMER**: On some systems, like Windows&reg; for example, they may 
 automatically make back-ups of the file in case it is accidently 
 deleted. This program cannot protect your privacy in this situation.
   
