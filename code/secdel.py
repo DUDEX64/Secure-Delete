@@ -3,9 +3,6 @@ import os
 import sys
 
 def ReplaceWithZeros(filename): 
-    if not os.path.isfile(filename): 
-        return false
-    ...
     fd = open(filename, "wb")
     size = os.path.getsize(filename)
     n = 1
@@ -15,10 +12,24 @@ def ReplaceWithZeros(filename):
     ...
     fd.flush()
     fd.close()
-    return true
-...
-def SecureDelete(argv): 
     return
 ...
+def SecureDelete(argv): 
+    for arg in argv :
+        if arg == sys.argv[0] :
+            continue
+        elif os.path.isfile(arg) :
+            ReplaceWithZeros(arg)
+            os.remove(arg)
+        else:
+            print("File \"" + str(arg) + "\" not found.")
+        ...
+    ...
+...
 
-print("GNU General Public Licence V3.0")
+if len(sys.argv) <= 1 :
+    print ("Please specify files at command line.")
+else:
+    SecureDelete(sys.argv)
+...
+
