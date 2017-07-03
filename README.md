@@ -2,10 +2,10 @@
 ### Ensure files are deleted without remains of their contents
 - - -
   
-This program will delete files so that none of their remaining content 
-can be found on the disk, which prevents file recovery. This is good 
+This program is able delete files so that none of their remaining content 
+can be found on the disk, which helps prevent file recovery. This is ideal  
 for those who require deleting files so that their sensitive data cannot 
-be found though file system analisis.
+be found though filesystem analisis.
   
   
 **DISCLAMER**: On some systems, like Windows&reg; for example, they may 
