@@ -3,7 +3,7 @@
 - - -
   
 This program is able delete files so that none of their remaining content 
-can be found on the disk, which helps prevent file recovery. This is ideal  
+can be found on the disk, which helps prevent file recovery. This is ideal
 for those who require deleting files so that their sensitive data cannot 
 be found though filesystem analisis.
   
